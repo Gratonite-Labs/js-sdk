@@ -1,5 +1,9 @@
 # Gratonite JS SDK
 
+[![Project](https://img.shields.io/badge/project-Gratonite-6d28d9)](https://github.com/CoodayeA/Gratonite)
+[![Status](https://img.shields.io/badge/status-active-16a34a)](https://github.com/Gratonite-Labs/js-sdk)
+[![Docs](https://img.shields.io/badge/source%20of%20truth-main%20repo-2563eb)](https://github.com/CoodayeA/Gratonite)
+
 Shared JavaScript and TypeScript package work for Gratonite.
 
 This repo exists to hold shared package work that supports Gratonite clients and services, including types, database-related package code, and cross-project utilities.
