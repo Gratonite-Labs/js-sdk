@@ -1,33 +1,36 @@
 # Gratonite JS SDK
 
 [![Project](https://img.shields.io/badge/project-Gratonite-6d28d9)](https://github.com/CoodayeA/Gratonite)
-[![Status](https://img.shields.io/badge/status-active-16a34a)](https://github.com/Gratonite-Labs/js-sdk)
-[![Docs](https://img.shields.io/badge/source%20of%20truth-main%20repo-2563eb)](https://github.com/CoodayeA/Gratonite)
+[![License](https://img.shields.io/badge/license-AGPLv3-blue)](https://github.com/CoodayeA/Gratonite/blob/main/LICENSE)
+[![Source of Truth](https://img.shields.io/badge/source%20of%20truth-monorepo-2563eb)](https://github.com/CoodayeA/Gratonite)
 
-Shared JavaScript and TypeScript package work for Gratonite.
+Shared JavaScript and TypeScript packages for the [Gratonite](https://github.com/CoodayeA/Gratonite) ecosystem.
 
-This repo exists to hold shared package work that supports Gratonite clients and services, including types, database-related package code, and cross-project utilities.
+## About
 
-## Canonical Source Of Truth
+This pointer repo represents the shared package layer of Gratonite — TypeScript types, API client utilities, and cross-project code used by the web, mobile, desktop, and API apps.
 
-The most current product-level documentation lives in:
-
-- [CoodayeA/Gratonite](https://github.com/CoodayeA/Gratonite)
-
-Use the main repo as the source of truth for current architecture and active app behavior.
+All active development happens in the **[main monorepo](https://github.com/CoodayeA/Gratonite)**.
 
 ## Scope
 
-- Shared TypeScript definitions
-- Reusable package-level utilities
-- Package work intended to support Gratonite apps and services
+- Shared TypeScript type definitions (API types, socket events, database schemas)
+- Reusable utilities used across Gratonite apps
+- Package-level code supporting clients and services
 
-## Related Repositories
+## Related Repos
 
-- [Gratonite-Labs/api](https://github.com/Gratonite-Labs/api)
-- [Gratonite-Labs/web](https://github.com/Gratonite-Labs/web)
-- [Gratonite-Labs/mobile](https://github.com/Gratonite-Labs/mobile)
+| Repo | Description |
+|------|-------------|
+| [CoodayeA/Gratonite](https://github.com/CoodayeA/Gratonite) | Main monorepo (source of truth) |
+| [Gratonite-Labs/api](https://github.com/Gratonite-Labs/api) | Backend API |
+| [Gratonite-Labs/web](https://github.com/Gratonite-Labs/web) | Web client |
+| [Gratonite-Labs/mobile](https://github.com/Gratonite-Labs/mobile) | Mobile app |
 
-## Notes
+## Contributing
 
-This README is intentionally conservative. Package organization can evolve independently, but the product reference remains the main `Gratonite` repo.
+See [CONTRIBUTING.md](https://github.com/CoodayeA/Gratonite/blob/main/CONTRIBUTING.md) in the main repo.
+
+## License
+
+[AGPLv3](https://github.com/CoodayeA/Gratonite/blob/main/LICENSE)
